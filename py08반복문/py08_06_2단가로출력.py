@@ -10,9 +10,9 @@ for x in range(1,10,1):
     #print("2 * %d = %2d" % (x, 2*x))
 
     if x == 9:
-        tmp = tmp + "2 * %d = %2d" % (x, 2*x)
+        tmp = tmp + "2 * %d = %2d" % (x, 2*x) + ". "
     else:
-        tmp = tmp + "2 * %d = %2d" % (x, 2*x) + ", "
+        tmp = tmp + "2 * %d = %2d" % (x, 2*x) + ",  "
 
     pass
 
