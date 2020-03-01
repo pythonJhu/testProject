@@ -29,8 +29,8 @@ day = "three"
 
 
 # 정렬과 공백
-"%10s" % "hi"  # '        hi'
-"%-10sjane." % 'hi'  # 'hi        jane.'
+"%10s" % "hi"  # '        hi'        # 앞으로 공백
+"%-10sjane." % 'hi'  # 'hi        jane.' # -는 뒤로 공백
 
 
 # 소수점 표현
